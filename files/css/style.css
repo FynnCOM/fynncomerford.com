@@ -1672,17 +1672,17 @@ a.sr-button4:hover { background: #ffffff; }
 .socialmedia-widget li {
 	display: inline-block;
 	*display: inline; *zoom: 1; 
-	margin: 0 14px 0 0;
+	margin: 0 20px 0 0;
 	position: relative;
 	height: 20px;
 	line-height: 20px;
 	}
-	.align-center .socialmedia-widget li { margin-right: -5px; padding: 0 10px ; }
+	.align-center .socialmedia-widget li { margin-right: -5px; padding: 0 30px ; }
 	.align-right .socialmedia-widget li { margin-left: 15px; margin-right: 0px;  }
 	
 .socialmedia-widget li a {
 	font: normal normal normal 12px/1 FontAwesome;
-  	font-size: 16px;
+  	font-size: 25px;
   	text-rendering: auto;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
