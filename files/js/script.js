@@ -440,9 +440,6 @@ jQuery( window ).scroll(function() {
 })(jQuery);
 
 
-
-
-var grid = new Muuri('.grid');
   
 var siriWave = new SiriWave({
 	  container: document.getElementById('wave'),
@@ -457,7 +454,3 @@ var siriWave = new SiriWave({
 	  siriWave.setAmplitude(1);
 	}, 1000);
 	
-	$(".grid-item").click(function(){
-	window.location = $(this).attr("href");
-	return false;
-});

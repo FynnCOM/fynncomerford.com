@@ -29,7 +29,7 @@
 <!-- CSS -->
 
 <!-- FAVICON -->
-<link rel="shortcut icon" href="files/uploads/favicon.png"/>
+<link rel="shortcut icon" href="files/uploads/logo.png"/>
 <!-- FAVICON -->
 
 </head>
@@ -182,7 +182,11 @@ background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, F
 <script type="text/javascript" src="files/js/script.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
-	
+    var grid = new Muuri('.grid');
+    $(".grid-item").click(function(){
+	window.location = $(this).attr("href");
+	return false;
+});
 });
 
 </script>

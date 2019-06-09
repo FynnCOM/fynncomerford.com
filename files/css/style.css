@@ -147,7 +147,7 @@ h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6,
 h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6,
 h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6 { margin-top: 10px; }
 
-.alttitle { font-family: 'Josefin Sans'; font-weight: 400; text-transform: none; letter-spacing: 0.04em; }
+.alttitle { font-family: "function_pro"; font-weight: 400; text-transform: none; }
 .alttitle b, .alttitle strong { font-weight: 700; }
 
 /* headers with link */
@@ -864,7 +864,7 @@ footer .footer-inner {
 	}
 	
 footer .copyright { 
-	font-family: 'Josefin Sans';
+	font-family: "function_pro";
 	}
 	
 footer .widget { 
