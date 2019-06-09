@@ -83,7 +83,7 @@
 	</header>
 	<!-- HEADER -->    
 	    
-   
+  
 	<!-- PAGEBODY -->
 	<section id="page-body">
     	
@@ -91,19 +91,28 @@
         
         	<div class="column-section clearfix">
                 <div class="column three-fifth">
-                    <h2 id="typed" style="display: inline;"><strong>Hello!</strong></h2>
-                    <p style="margin-top: 30px" >I’m Ragnor. In case you don’t know me yet, feel free to check my&nbsp;<a style="color: black; text-decoration: underline;" href="about.html">about</a> page.<br>Here, I occasionally write about <a style="color: black; text-decoration: underline;" href="https://ragnorcomerford.com/projects/">projects</a> I am working on and <a style="color: black; text-decoration: underline;" href="https://ragnorcomerford.com/thoughts/">thoughts and ideas</a>&nbsp;I have on different&nbsp;topics.<br>I also compile a <a style="color: black; text-decoration: underline;" href="https://ragnorcomerford.com/collections/">collection</a> of books, movies, and articles I particularly like and recommend.<br>If you have an interesting project or just want to have a coffee and chat, don’t hesitate to <a style="color: black; text-decoration: underline;" href="mailto:hello@ragnor.co">drop me message</a>.</p>    
-                    <img src="files/uploads/signature.png" style="height:100px; margin-top: 30px" />
-                </div>
-            </div>
+                    <h2><strong>Thoughts</strong></h2>
+                    <p style="margin-top: 30px">
+                        Coming soon ...
+                       </p>
             
+                      </div>
+            </div>
+           
         	<div class="spacer spacer-medium"></div>
            	
            
         
  	</section>
 	<!-- PAGEBODY -->
-    
+    <div style="    
+    height: 100px;
+    margin: auto;
+    opacity: .3;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    color: red;" id="wave"></div>
     <!-- FOOTER -->  
     <footer>
         <div class="footer-inner align-center wrapper">
@@ -137,19 +146,24 @@
 <script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>
 <script type="text/javascript" src="files/js/jquery.owl.carousel.js"></script>
 <script type="text/javascript" src="files/js/jquery.wolf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.3/dist/typeit.min.js"></script>
+<script src="https://unpkg.com/siriwave/dist/siriwave.js"></script>
 <script type="text/javascript" src="files/js/script.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
-const instance = new TypeIt('#typed', {
-  strings:["Salut!","Ciao!", "Hola!","!أهلاً","Hello!"],
-  deleteSpeed: 90,
-  speed: 90,
-  nextStringDelay: 2000,
-  breakLines: false,
-  waitUntilVisible: true
-}).go();
+  
+    var siriWave = new SiriWave({
+		  container: document.getElementById('wave'),
+		  speed: 0.02,
+		  		  color: '#5b5b5b',
+		  		  frequency: 4,
+		  autostart: true,
+		  amplitude: 0
+		});
+
+		setTimeout(function() {
+		  siriWave.setAmplitude(1);
+		}, 1000);
+	
 });
 
 </script>
