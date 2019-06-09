@@ -6,6 +6,8 @@
 (function(){
 'use strict';
 
+
+
 // REORGANIZE ISOTOPE FUNCTION
 function reorganizeIsotope() {
 	jQuery('.masonry').each(function(){
@@ -436,3 +438,26 @@ jQuery( window ).scroll(function() {
 });
 
 })(jQuery);
+
+
+
+
+var grid = new Muuri('.grid');
+  
+var siriWave = new SiriWave({
+	  container: document.getElementById('wave'),
+	  speed: 0.02,
+				color: '#5b5b5b',
+				frequency: 4,
+	  autostart: true,
+	  amplitude: 0
+	});
+
+	setTimeout(function() {
+	  siriWave.setAmplitude(1);
+	}, 1000);
+	
+	$(".grid-item").click(function(){
+	window.location = $(this).attr("href");
+	return false;
+});
