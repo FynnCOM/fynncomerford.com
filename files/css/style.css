@@ -2178,6 +2178,7 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
   .grid-item {
 	display: block;
 	position: absolute;
+	cursor: pointer;
 	min-width:300px;
 	max-height:500px;
 	width: 25vw;

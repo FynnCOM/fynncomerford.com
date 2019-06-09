@@ -95,6 +95,7 @@
                     <div class="grid">
                      
                         <div class="grid-item" 
+                        href="hyped.html"
                         style="background-image: url(files/uploads/hyped-front.jpeg);
                         background-size:cover;
                         background-repeat: no-repeat;
@@ -195,7 +196,12 @@ $( document ).ready(function() {
 
 		setTimeout(function() {
 		  siriWave.setAmplitude(1);
-		}, 1000);
+        }, 1000);
+        
+        $(".grid-item").click(function(){
+        window.location = $(this).attr("href");
+        return false;
+    });
 	
 });
 
