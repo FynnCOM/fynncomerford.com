@@ -2212,3 +2212,14 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
 	font-weight: bold;
 	font-size: 20px;
   }
+
+
+#wave {
+	height: 100px;
+    margin: auto;
+    opacity: .3;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    z-index: -1;
+}
