@@ -3465,7 +3465,6 @@ header.header-open:not(.header-transparent)+#page-body {
 }
 
 .photo-grid {
-
 	position: relative;
 
 
@@ -3475,7 +3474,7 @@ header.header-open:not(.header-transparent)+#page-body {
 	display: block;
 	position: absolute;
 	cursor: pointer;
-	max-width: 32vw;
+	max-width: 33.1vw;
 	margin: 0.1vw;
 	z-index: 1;
 	color: #fff;
