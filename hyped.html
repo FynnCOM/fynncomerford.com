@@ -147,7 +147,7 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img class="cld-hidpi"
+                        <img class="lazy"
                             src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/hyped-group-photo.jpeg" />
                     </div>
                 </div>
@@ -157,7 +157,8 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-falcon.jpg" />
+                        <img class="lazy"
+                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-falcon.jpg" />
                     </div>
 
                 </div>
@@ -167,7 +168,8 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/software-team.jpg" />
+                        <img class="lazy"
+                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/software-team.jpg" />
                     </div>
 
                 </div>
@@ -176,7 +178,7 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img
+                        <img class="lazy"
                             src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/isabella-ragnor-working.jpg" />
                     </div>
                 </div>
@@ -185,14 +187,15 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-tube.jpg" />
+                        <img class="lazy"
+                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-tube.jpg" />
                     </div>
                 </div>
                 <div class="photo-grid-item">
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img
+                        <img class="lazy"
                             src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-tube-interior.jpg" />
                     </div>
                 </div>
@@ -246,6 +249,7 @@
     <script type="text/javascript" src="files/js/siriwave.js"></script>
     <script type="text/javascript" src="files/js/web-animations.min@2.3.1.js"></script>
     <script type="text/javascript" src="files/js/muuri.min@0.7.1.js"></script>
+    <script type="text/javascript" src="files/js/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="files/js/script.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -262,6 +266,10 @@
                 window.location = $(this).attr("href");
                 return false;
             });
+            $(function () {
+                $('.lazy').Lazy();
+            });
+
         });
     </script>
 
