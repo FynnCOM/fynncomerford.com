@@ -137,8 +137,7 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img class="cld-hidpi"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/hyped-elon-musk.jpg" />
+                        <img class="lazy" src="https://ik.imagekit.io/ragnor/files/uploads/hyped/hyped-elon-musk.jpg" />
                     </div>
 
                 </div>
@@ -148,7 +147,7 @@
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
                         <img class="lazy"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/hyped-group-photo.jpeg" />
+                            src="https://ik.imagekit.io/ragnor/files/uploads/hyped/hyped-group-photo.jpeg" />
                     </div>
                 </div>
 
@@ -157,8 +156,7 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img class="lazy"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-falcon.jpg" />
+                        <img class="lazy" src="https://ik.imagekit.io/ragnor/files/uploads/hyped/spacex-falcon.jpg" />
                     </div>
 
                 </div>
@@ -168,8 +166,7 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img class="lazy"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/software-team.jpg" />
+                        <img class="lazy" src="https://ik.imagekit.io/ragnor/files/uploads/hyped/software-team.jpg" />
                     </div>
 
                 </div>
@@ -179,7 +176,7 @@
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
                         <img class="lazy"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/isabella-ragnor-working.jpg" />
+                            src="https://ik.imagekit.io/ragnor/files/uploads/hyped/isabella-ragnor-working.jpg" />
                     </div>
                 </div>
 
@@ -187,8 +184,7 @@
                     <div class="photo-grid-item-content">
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
-                        <img class="lazy"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-tube.jpg" />
+                        <img class="lazy" src="https://ik.imagekit.io/ragnor/files/uploads/hyped/spacex-tube.jpg" />
                     </div>
                 </div>
                 <div class="photo-grid-item">
@@ -196,7 +192,7 @@
                         <!-- Safe zone, enter your custom markup -->
                         <!-- Safe zone ends -->
                         <img class="lazy"
-                            src="https://ik.imagekit.io/ragnor/tr:n-mytr/files/uploads/hyped/spacex-tube-interior.jpg" />
+                            src="https://ik.imagekit.io/ragnor/files/uploads/hyped/spacex-tube-interior.jpg" />
                     </div>
                 </div>
 
@@ -252,6 +248,11 @@
     <script type="text/javascript" src="files/js/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="files/js/script.js"></script>
     <script type="text/javascript">
+        $(function () {
+            $('.lazy').Lazy();
+        });
+
+
         $(document).ready(function () {
             var grid = new Muuri('.photo-grid', {
                 layout: {
@@ -266,9 +267,7 @@
                 window.location = $(this).attr("href");
                 return false;
             });
-            $(function () {
-                $('.lazy').Lazy();
-            });
+
 
         });
     </script>
