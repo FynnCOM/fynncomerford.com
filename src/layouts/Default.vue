@@ -4,7 +4,7 @@
     <div class="px-16">
       <header>
         <div class="flex h-24 items-center justify-between">
-          <img class="h-10" src="../assets/img/logos/rc.png" />
+          <img class="h-12" src="@/assets/img/logos/rc.png" />
           <nav>
             <div class="text-black flex items-center justify-between hidden lg:block xl:block">
               <g-link active-class="text-gold" class="test ml-5 text-black" to="/" exact>Home</g-link>

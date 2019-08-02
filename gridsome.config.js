@@ -6,6 +6,10 @@
 
 module.exports = {
   siteName: "Gridsome",
+  icon: {
+    favicon: "./src/assets/img/logos/rc.png",
+    touchicon: "./src/assets/img/logos/rc.png"
+  },
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
