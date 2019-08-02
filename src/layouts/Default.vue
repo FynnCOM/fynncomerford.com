@@ -7,12 +7,16 @@
           <img class="h-10" src="../assets/img/logos/rc.png" />
           <nav>
             <div class="text-black flex items-center justify-between hidden lg:block xl:block">
-              <g-link class="test ml-5" to="/">Home</g-link>
-              <g-link class="ml-5" to="/about">About</g-link>
-              <g-link class="ml-5" to="/about">Projects</g-link>
-              <g-link class="ml-5" to="/about">Collections</g-link>
-              <g-link class="ml-5" to="/about">CV</g-link>
-              <g-link class="ml-5" to="/about">Thoughts</g-link>
+              <g-link active-class="text-gold" class="test ml-5 text-black" to="/" exact>Home</g-link>
+              <g-link active-class="text-gold" class="ml-5" to="/about">About</g-link>
+              <g-link active-class="text-gold" class="ml-5" to="/projects">Projects</g-link>
+              <g-link active-class="text-gold" class="ml-5" to="/collections">Collections</g-link>
+              <a
+                target="_blank"
+                class="ml-5"
+                href="https://drive.google.com/file/d/1XddOM9HOTuT6uIM2cLGCYK5cK_PNSdJA/view?usp=sharing"
+              >CV</a>
+              <g-link active-class="text-gold" class="ml-5" to="/thoughts">Thoughts</g-link>
             </div>
           </nav>
         </div>
@@ -25,12 +29,12 @@
     >
       <XIcon @click="toggle" size="1.5x" class="mt-8 mr-8 float-right"></XIcon>
       <div class="flex flex-col items-end mt-20 mr-8">
-        <g-link to="/">Home</g-link>
-        <g-link to="/about">About</g-link>
-        <g-link to="/about">Projects</g-link>
-        <g-link to="/about">Collections</g-link>
-        <g-link to="/about">CV</g-link>
-        <g-link to="/about">Thoughts</g-link>
+        <g-link active-class="text-gold" to="/">Home</g-link>
+        <g-link active-class="text-gold" to="/about">About</g-link>
+        <g-link active-class="text-gold" to="/about">Projects</g-link>
+        <g-link active-class="text-gold" to="/about">Collections</g-link>
+        <g-link active-class="text-gold" to="/about">CV</g-link>
+        <g-link active-class="text-gold" to="/about">Thoughts</g-link>
       </div>
     </div>
   </div>
