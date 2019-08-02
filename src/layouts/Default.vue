@@ -25,7 +25,7 @@
     </div>
     <div
       :class="open ? 'w-full': 'w-0'"
-      class="h-screen bg-white shadow-lg overflow-auto float-right absolute top-0 right-0 ragtrans"
+      class="h-screen bg-white shadow-lg overflow-auto float-right absolute top-0 right-0 transition-w transition-500"
     >
       <XIcon @click="toggle" size="1.5x" class="mt-8 mr-8 float-right"></XIcon>
       <div class="flex flex-col items-end mt-20 mr-8">
