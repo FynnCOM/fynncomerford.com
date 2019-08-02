@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "RagnorFont";
+  src: url("../fonts/function-pro/FunctionPro-Book-webfont.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RagnorFont";
+  src: url("../fonts/function-pro/FunctionPro-Demi-webfont.woff");
+  font-weight: bold;
+}
