@@ -15,3 +15,8 @@
   src: url("../fonts/function-pro/FunctionPro-Demi-webfont.woff");
   font-weight: bold;
 }
+
+.ragtrans {
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s;
+}
