@@ -1,21 +1,20 @@
 <template>
   <Layout>
-    <div class="pl-18 lg:pl-32 pt-10">
-      <h2 id="typed" class="text-5xl" style="display: inline;">
-        <strong>Hello!</strong>
-      </h2>
-      <p style="margin-top: 30px">
+    <div class="pl-18 lg:pl-32 pt-32 w-2/3 leading-relaxed">
+      <vue-typer
+        class="text-5xl font-bold"
+        erase-style="backspace"
+        :text="['Salut!', 'Ciao!', 'Hola!', '!أهلاً', 'Hello!']"
+      ></vue-typer>
+      <p class="mt-6">
         I’m Ragnor. In case you don’t know me yet, feel free to check
-        my&nbsp;
+        my
         <a
           style="color: black; text-decoration: underline;"
           href="about.html"
         >about</a> page.
         <br />Here, I occasionally write about
-        <a
-          style="color: black; text-decoration: underline;"
-          href="https://ragnorcomerford.com/projects/"
-        >projects</a> I am working on and
+        <g-link style="color: black; text-decoration: underline;" to="/projects">projects</g-link>I am working on and
         <a
           style="color: black; text-decoration: underline;"
           href="https://ragnorcomerford.com/thoughts/"
@@ -37,13 +36,17 @@
           a message
         </a>.
       </p>
-      <img src="@/assets/img/signature.png" style="height:100px; margin-top: 30px" />
+      <img src="@/assets/img/signature.png" class="h-24 mt-8" />
     </div>
   </Layout>
 </template>
 
 <script>
+import { VueTyper } from "vue-typer";
 export default {
+  components: {
+    VueTyper
+  },
   metaInfo: {
     title: "Hello, world!"
   }
