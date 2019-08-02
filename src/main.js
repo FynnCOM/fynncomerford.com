@@ -9,5 +9,5 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
 
   head.htmlAttrs = { lang: "en", class: "h-full" };
-  head.bodyAttrs = { class: "antialiased font-sans" };
+  head.bodyAttrs = { class: "font-sans" };
 }

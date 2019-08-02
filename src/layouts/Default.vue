@@ -1,21 +1,38 @@
 <template>
-  <div class="px-32">
-    <header>
-      <div class="flex h-20 items-center justify-between">
-        <img class="h-10" src="../assets/img/logos/rc.png" />
-        <nav>
-          <MenuIcon @click="toggle" size="1.5x" class="absolute right-0 mr-10 lg:hidden"></MenuIcon>
-          <div
-            class="flex items-center justify-between ragtrans"
-            :class="open ? 'flex-col absolute right-0 mr-10 mt-20': 'flex-row sm:hidden lg:flex'"
-          >
-            <g-link class="nav__link" to="/">Home</g-link>
-            <g-link class="nav__link" to="/about">About</g-link>
-          </div>
-        </nav>
+  <div class="h-full w-full">
+    <MenuIcon @click="toggle" size="1.5x" class="absolute right-0 mr-10 mt-10 lg:hidden xl:hidden"></MenuIcon>
+    <div class="px-16">
+      <header>
+        <div class="flex h-24 items-center justify-between">
+          <img class="h-10" src="../assets/img/logos/rc.png" />
+          <nav>
+            <div class="text-black flex items-center justify-between hidden lg:block xl:block">
+              <g-link class="test ml-5" to="/">Home</g-link>
+              <g-link class="ml-5" to="/about">About</g-link>
+              <g-link class="ml-5" to="/about">Projects</g-link>
+              <g-link class="ml-5" to="/about">Collections</g-link>
+              <g-link class="ml-5" to="/about">CV</g-link>
+              <g-link class="ml-5" to="/about">Thoughts</g-link>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <slot />
+    </div>
+    <div
+      :class="open ? 'w-full': 'w-0'"
+      class="h-screen bg-white shadow-lg overflow-auto float-right absolute top-0 right-0 ragtrans"
+    >
+      <XIcon @click="toggle" size="1.5x" class="mt-8 mr-8 float-right"></XIcon>
+      <div class="flex flex-col items-end mt-20 mr-8">
+        <g-link to="/">Home</g-link>
+        <g-link to="/about">About</g-link>
+        <g-link to="/about">Projects</g-link>
+        <g-link to="/about">Collections</g-link>
+        <g-link to="/about">CV</g-link>
+        <g-link to="/about">Thoughts</g-link>
       </div>
-    </header>
-    <slot />
+    </div>
   </div>
 </template>
 
@@ -28,11 +45,12 @@ query {
 </static-query>
 
 <script>
-import { MenuIcon } from "vue-feather-icons";
+import { MenuIcon, XIcon } from "vue-feather-icons";
 export default {
   name: "NavBar",
   components: {
-    MenuIcon
+    MenuIcon,
+    XIcon
   },
   data() {
     return {
@@ -48,22 +66,8 @@ export default {
 </script>
 
 <style>
-body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 900px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.nav__link {
-  margin-left: 20px;
+.ragtrans {
+  transition-property: width;
+  transition-duration: 0.5s;
 }
 </style>
