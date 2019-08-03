@@ -7,16 +7,20 @@
           <img class="h-12" src="@/assets/img/logos/rc.png" />
           <nav>
             <div class="text-black flex items-center justify-between hidden lg:block xl:block">
-              <g-link active-class="text-gold" class="test ml-5 text-black" to="/" exact>Home</g-link>
-              <g-link active-class="text-gold" class="ml-5" to="/about">About</g-link>
-              <g-link active-class="text-gold" class="ml-5" to="/projects">Projects</g-link>
-              <g-link active-class="text-gold" class="ml-5" to="/collections">Collections</g-link>
+              <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/" exact>Home</g-link>
+              <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/about">About</g-link>
+              <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/projects">Projects</g-link>
+              <g-link
+                active-class="text-gold"
+                class="ml-5 hover:text-gold"
+                to="/collections"
+              >Collections</g-link>
               <a
                 target="_blank"
-                class="ml-5"
+                class="ml-5 hover:text-gold"
                 href="https://drive.google.com/file/d/1XddOM9HOTuT6uIM2cLGCYK5cK_PNSdJA/view?usp=sharing"
               >CV</a>
-              <g-link active-class="text-gold" class="ml-5" to="/thoughts">Thoughts</g-link>
+              <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/thoughts">Thoughts</g-link>
             </div>
           </nav>
         </div>
