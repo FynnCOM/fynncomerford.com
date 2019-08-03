@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="pl-18 lg:pl-32 pt-24 w-2/3 leading-relaxed">
-      <h2 class="text-5xl font-bold mb-4">
+      <h1 class="text-5xl font-bold mb-4">
         <span class="text-gold">A</span>bout
-      </h2>
+      </h1>
       <p>
         My name is Ragnor Comerford and I’m currently studying Artificial Intelligence at the
         University of Edinburgh with the main research interest at the intersection of Artificial Intelligence, Computer Science, Neuroscience and Biology.
