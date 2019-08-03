@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="pl-18 lg:pl-32 pt-32 w-2/3 leading-relaxed">
+    <div class="pl-18 lg:pl-32 pt-24 w-2/3 leading-relaxed">
       <vue-typer
         class="text-5xl font-bold"
         erase-style="backspace"

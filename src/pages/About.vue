@@ -1,14 +1,30 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <div class="pl-18 lg:pl-32 pt-24 w-2/3 leading-relaxed">
+      <h2 class="text-5xl font-bold mb-4">
+        <span class="text-gold">A</span>bout
+      </h2>
+      <p>
+        My name is Ragnor Comerford and I’m currently studying Artificial Intelligence at the
+        University of Edinburgh with the main research interest at the intersection of Artificial Intelligence, Computer Science, Neuroscience and Biology.
+      </p>
+      <p>
+        I’m intrigued by languages, philosophy, science and design and passionate about the
+        development of global policies and federalism to tackle our world’s issues such as poverty
+        and climate change.
+      </p>
+      <p>
+        I love to travel, play the guitar and do all kinds of sports and I am constantly seeking to
+        be inspired, to solve the truly important problems and to be surrounded by people I love.
+      </p>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'About us'
+    title: "About us"
   }
-}
+};
 </script>
