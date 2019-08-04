@@ -4,6 +4,7 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/css/main.css";
 import VueProgressBar from "vue-progressbar";
+import VueMasonry from "vue-masonry-css";
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -23,6 +24,7 @@ export default function(Vue, { router, head, isClient }) {
   };
 
   Vue.use(VueProgressBar, options);
+  Vue.use(VueMasonry);
 
   head.htmlAttrs = { lang: "en", class: "h-full" };
   head.bodyAttrs = { class: "font-sans" };
