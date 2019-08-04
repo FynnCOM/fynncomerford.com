@@ -7,7 +7,7 @@
       <masonry class="pb-20" :cols="{default: 3, 1000: 3, 700: 1, 400: 1}" :gutter="30">
         <div
           :key="1"
-          style="box-shadow: 0px 0px 45px 10px rgba(45, 56, 104, 0.7)"
+          style="box-shadow: 0px 0px 45px 10px rgba(45, 56, 104, 0.5)"
           class="mb-6 rounded-lg hyped bg-center bg-no-repeat bg-cover"
         >
           <img class="rounded-lg w-100 h-auto" src="~@/assets/img/projects/hyped/thumbnail.jpeg" />

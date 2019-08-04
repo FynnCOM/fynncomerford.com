@@ -10,16 +10,16 @@ export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   const options = {
-    color: "#bffaf3",
+    color: "black",
     failedColor: "#874b4b",
-    thickness: "5px",
+    thickness: "3px",
     transition: {
-      speed: "0.2s",
-      opacity: "0.6s",
+      speed: "0.7s",
+      opacity: "1",
       termination: 300
     },
     autoRevert: true,
-    location: "left",
+    location: "top",
     inverse: false
   };
 

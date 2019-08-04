@@ -68,7 +68,10 @@ export default {
   },
   created() {
     this.$Progress.start();
-    this.$Progress.set(30);
+  },
+  mounted() {
+    //  [App.vue specific] When App.vue is finish loading finish the progress bar
+    this.$Progress.finish();
   },
   methods: {
     toggle() {
