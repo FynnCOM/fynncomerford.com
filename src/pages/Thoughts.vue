@@ -1,7 +1,11 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <div class="pl-18 lg:pl-32 pt-24 w-full leading-relaxed">
+      <h1 class="text-5xl font-bold mb-12">
+        <span class="text-gold">T</span>houghts
+      </h1>
+      <p class="mt-5">Coming soon ...</p>
+    </div>
   </Layout>
 </template>
 

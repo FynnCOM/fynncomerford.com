@@ -1,5 +1,6 @@
 <template>
   <div class="h-full w-full">
+    <vue-progress-bar></vue-progress-bar>
     <MenuIcon @click="toggle" size="1.5x" class="absolute right-0 mr-10 mt-10 lg:hidden xl:hidden"></MenuIcon>
     <div class="px-16">
       <header>
@@ -64,6 +65,10 @@ export default {
     return {
       open: false
     };
+  },
+  created() {
+    this.$Progress.start();
+    this.$Progress.set(30);
   },
   methods: {
     toggle() {

@@ -10,6 +10,7 @@
     "gridsome": "^0.6.0",
     "tailwindcss-transitions": "^2.0.1",
     "vue-feather-icons": "^5.0.0",
+    "vue-progressbar": "^0.7.5",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
