@@ -14,7 +14,7 @@
           href="about.html"
         >about</a> page.
         <br />Here, I occasionally write about
-        <g-link style="color: black; text-decoration: underline;" to="/projects">projects</g-link>I am working on and
+        <g-link style="color: black; text-decoration: underline;" to="/projects">projects</g-link>&nbsp;I am working on and
         <a
           style="color: black; text-decoration: underline;"
           href="https://ragnorcomerford.com/thoughts/"
@@ -27,7 +27,7 @@
         >collection</a> of books, movies, and
         articles I particularly like and recommend.
         <br />If you have an interesting project or just
-        want to have a coffee and chat, don’t hesitate to
+        want to grab a coffee and chat, don’t hesitate to
         <a
           style="color: black; text-decoration: underline;"
           href="mailto:hello@ragnor.co"
