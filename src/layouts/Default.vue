@@ -1,8 +1,6 @@
 <template>
   <div class="h-full w-full relative">
-    <ClientOnly>
-      <vue-progress-bar></vue-progress-bar>
-    </ClientOnly>
+    <vue-progress-bar></vue-progress-bar>
 
     <MenuIcon
       @click="toggle"
