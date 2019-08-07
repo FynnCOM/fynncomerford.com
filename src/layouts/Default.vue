@@ -22,17 +22,6 @@
             <div class="text-black flex items-center justify-between hidden lg:block xl:block">
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/" exact>Home</g-link>
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/about">About</g-link>
-              <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/projects">Projects</g-link>
-              <g-link
-                active-class="text-gold"
-                class="ml-5 hover:text-gold"
-                to="/collections"
-              >Collections</g-link>
-              <a
-                target="_blank"
-                class="ml-5 hover:text-gold"
-                href="https://drive.google.com/file/d/1XddOM9HOTuT6uIM2cLGCYK5cK_PNSdJA/view?usp=sharing"
-              >CV</a>
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/thoughts">Thoughts</g-link>
             </div>
           </nav>
