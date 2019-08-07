@@ -8,8 +8,7 @@
           style="color: black; text-decoration: underline;"
           href="about.html"
         >about</a> page.
-        <br />Here, I occasionally write about
-        <g-link style="color: black; text-decoration: underline;" to="/projects">projects</g-link>&nbsp;I am working on and
+        <br />Here, I occasionally write about I am working on and
         <a
           style="color: black; text-decoration: underline;"
           href="https://ragnorcomerford.com/thoughts/"
