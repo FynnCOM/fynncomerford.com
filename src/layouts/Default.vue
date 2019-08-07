@@ -1,13 +1,5 @@
 <template>
   <div class="h-full w-full relative">
-    <ClientOnly>
-      <div
-        :class="open ? 'hidden': 'block'"
-        class="opacity-25 absolute h-24 top-0 right-0 mt-20 w-full z-20"
-        id="wave"
-      ></div>
-    </ClientOnly>
-    <vue-progress-bar></vue-progress-bar>
     <MenuIcon
       @click="toggle"
       size="1.5x"
@@ -21,7 +13,7 @@
           <nav>
             <div class="text-black flex items-center justify-between hidden lg:block xl:block">
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/" exact>Home</g-link>
-              <router-link active-class="text-gold" class="ml-5 hover:text-gold" to="/about">About</router-link>
+              <a active-class="text-gold" class="ml-5 hover:text-gold" href="/about">About</a>
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/projects">Projects</g-link>
               <g-link
                 active-class="text-gold"
