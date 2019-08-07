@@ -1,5 +1,6 @@
 <template>
   <div class="h-full w-full relative">
+    <vue-progress-bar></vue-progress-bar>
     <MenuIcon
       @click="toggle"
       size="1.5x"
@@ -63,6 +64,7 @@ query {
 
 <script>
 import { MenuIcon, XIcon } from "vue-feather-icons";
+import SiriWave from "siriwave";
 
 export default {
   name: "NavBar",
@@ -75,7 +77,13 @@ export default {
       open: false
     };
   },
-
+  created() {
+    this.$Progress.start();
+  },
+  mounted() {
+    //  [App.vue specific] When App.vue is finish loading finish the progress bar
+    this.$Progress.finish();
+  },
   methods: {
     toggle() {
       this.open = !this.open;
