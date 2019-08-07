@@ -64,7 +64,6 @@ query {
 
 <script>
 import { MenuIcon, XIcon } from "vue-feather-icons";
-import SiriWave from "siriwave";
 
 export default {
   name: "NavBar",
