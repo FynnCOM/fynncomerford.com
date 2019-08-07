@@ -21,7 +21,7 @@
           <nav>
             <div class="text-black flex items-center justify-between hidden lg:block xl:block">
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/" exact>Home</g-link>
-              <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/about">About</g-link>
+              <router-link active-class="text-gold" class="ml-5 hover:text-gold" to="/about">About</router-link>
               <g-link active-class="text-gold" class="ml-5 hover:text-gold" to="/projects">Projects</g-link>
               <g-link
                 active-class="text-gold"
