@@ -45,18 +45,7 @@
       class="h-screen bg-white overflow-auto float-right absolute top-0 right-0 transition-opacity transition-1000 w-full z-40"
     >
       <XIcon @click="toggle" size="1.5x" class="mt-8 mr-8 float-right"></XIcon>
-      <div class="flex flex-col items-end mt-20 mr-8">
-        <g-link active-class="text-gold" to="/" exact>Home</g-link>
-        <g-link active-class="text-gold" to="/about">About</g-link>
-        <g-link active-class="text-gold" to="/projects">Projects</g-link>
-        <g-link active-class="text-gold" to="/collections">Collections</g-link>
-        <a
-          target="_blank"
-          class="ml-5 hover:text-gold"
-          href="https://drive.google.com/file/d/1XddOM9HOTuT6uIM2cLGCYK5cK_PNSdJA/view?usp=sharing"
-        >CV</a>
-        <g-link active-class="text-gold" to="/thoughts">Thoughts</g-link>
-      </div>
+      <div class="flex flex-col items-end mt-20 mr-8"></div>
     </div>
   </div>
 </template>
