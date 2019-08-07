@@ -23,7 +23,6 @@ export default function(Vue, { router, head, isClient }) {
     inverse: false
   };
 
-  Vue.use(VueProgressBar, options);
   Vue.use(VueMasonry);
 
   head.htmlAttrs = { lang: "en", class: "h-full" };

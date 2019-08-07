@@ -7,7 +7,7 @@
         id="wave"
       ></div>
     </ClientOnly>
-    <vue-progress-bar></vue-progress-bar>
+
     <MenuIcon
       @click="toggle"
       size="1.5x"
@@ -84,12 +84,8 @@ export default {
       open: false
     };
   },
-  created() {
-    this.$Progress.start();
-  },
+
   mounted() {
-    //  [App.vue specific] When App.vue is finish loading finish the progress bar
-    this.$Progress.finish();
     var ret = require("siriwave");
     this.$nextTick(function() {
       var siriWave = new SiriWave({
