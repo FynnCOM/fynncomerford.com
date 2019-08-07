@@ -14,16 +14,7 @@
             </div>
           </div>
         </a>
-        <g-link to="/projects/hyped">
-          <div :key="2" class="h-30 shadow rounded-lg mb-6">
-            <div class="flex w-full justify-center items-center h-48">
-              <img class="w-1/10 h-auto" src="~@/assets/img/logos/hyped.png" />
 
-              <div class="border-l-2 h-10 border-black mx-5"></div>
-              <h2 class="text-lg">Hyperloop</h2>
-            </div>
-          </div>
-        </g-link>
         <div :key="3" class="h-30 shadow rounded-lg mb-6"></div>
       </masonry>
     </div>
