@@ -57,18 +57,15 @@
       </p>
 
       <masonry class="py-20" :cols="{default: 3, 1000: 3, 700: 1, 400: 1}" :gutter="20">
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/hyped-group-photo.jpeg"></g-image>
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/hyped-elon-musk.jpg"></g-image>
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/hyped-group-photo.jpeg" />
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/hyped-elon-musk.jpg" />
 
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-tube.jpg"></g-image>
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/software-team.jpg"></g-image>
-        <g-image
-          class="rounded-lg mb-5"
-          src="@/assets/img/projects/hyped/isabella-ragnor-working.jpg"
-        ></g-image>
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-falcon.jpg"></g-image>
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-tube-interior.jpg"></g-image>
-        <g-image class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-tube.jpg"></g-image>
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-tube.jpg" />
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/software-team.jpg" />
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/isabella-ragnor-working.jpg" />
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-falcon.jpg" />
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-tube-interior.jpg" />
+        <img class="rounded-lg mb-5" src="@/assets/img/projects/hyped/spacex-tube.jpg" />
       </masonry>
     </div>
   </Layout>
