@@ -2,7 +2,7 @@
   <div class="h-full w-full relative">
     <ClientOnly>
       <div
-        :class="open ? 'block': 'hidden'"
+        :class="open ? 'hidden': 'block'"
         class="opacity-25 absolute h-24 top-0 right-0 mt-20 w-full z-20"
         id="wave"
       ></div>
