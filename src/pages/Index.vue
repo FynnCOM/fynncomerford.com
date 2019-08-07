@@ -1,13 +1,6 @@
 <template>
   <Layout>
     <div class="pl-18 lg:pl-32 pt-24 w-2/3 leading-relaxed">
-      <ClientOnly>
-        <vue-typer
-          class="text-5xl font-bold"
-          erase-style="backspace"
-          :text="['Salut!', 'Ciao!', 'Hola!', '!أهلاً', 'Hello!']"
-        ></vue-typer>
-      </ClientOnly>
       <p class="mt-6">
         I’m Ragnor. In case you don’t know me yet, feel free to check
         my
@@ -45,12 +38,6 @@
 
 <script>
 export default {
-  components: {
-    VueTyper: () =>
-      import("vue-typer")
-        .then(m => m.VueTyper)
-        .catch()
-  },
   metaInfo: {
     title: "Hello, world!"
   }
