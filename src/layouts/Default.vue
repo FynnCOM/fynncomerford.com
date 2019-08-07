@@ -1,5 +1,13 @@
 <template>
   <div class="h-full w-full relative">
+    <ClientOnly>
+      <div
+        :class="open ? 'hidden': 'block'"
+        class="opacity-25 absolute h-24 top-0 right-0 mt-20 w-full z-20"
+        id="wave"
+      ></div>
+    </ClientOnly>
+    <vue-progress-bar></vue-progress-bar>
     <MenuIcon
       @click="toggle"
       size="1.5x"
