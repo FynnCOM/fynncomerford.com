@@ -71,7 +71,6 @@ query {
 
 <script>
 import { MenuIcon, XIcon } from "vue-feather-icons";
-import SiriWave from "siriwave";
 
 export default {
   name: "NavBar",
@@ -85,18 +84,6 @@ export default {
     };
   },
 
-  mounted() {
-    var ret = require("siriwave");
-    this.$nextTick(function() {
-      var siriWave = new SiriWave({
-        container: document.getElementById("wave"),
-        speed: 0.02,
-        color: "#5b5b5b",
-        frequency: 4,
-        autostart: true
-      });
-    });
-  },
   methods: {
     toggle() {
       this.open = !this.open;

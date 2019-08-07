@@ -3,7 +3,6 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/css/main.css";
-import VueProgressBar from "vue-progressbar";
 import VueMasonry from "vue-masonry-css";
 
 export default function(Vue, { router, head, isClient }) {
