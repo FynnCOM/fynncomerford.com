@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "Ragnor Comerford",
   icon: {
     favicon: "./src/assets/img/logos/rc.png",
     touchicon: "./src/assets/img/logos/rc.png"

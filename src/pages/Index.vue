@@ -52,7 +52,7 @@ export default {
         .catch()
   },
   metaInfo: {
-    title: "Hello, world!"
+    title: "Home"
   }
 };
 </script>
