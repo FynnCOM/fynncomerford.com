@@ -5,17 +5,24 @@
         <span class="text-gold">A</span>bout
       </h1>
       <p>
-        My name is Ragnor Comerford and I’m currently studying Artificial Intelligence at the
-        University of Edinburgh with the main research interest at the intersection of Artificial Intelligence, Computer Science, Neuroscience and Biology.
+        My name is Fynn Comerford and I am studying Neuroscience at The University of Manchester. I am commited to help solve the world's biggest problems.
+        I want to participate in research that helps solve big health problems. 
       </p>
       <p>
-        I’m intrigued by languages, philosophy, science and design and passionate about the
-        development of global policies and federalism to tackle our world’s issues such as poverty
-        and climate change.
+         I am particularly
+fascinated by the opportunities emerging at the intersection of artificial intelligence and
+cutting edge neuroscientific and biomedical research. Brain-computer interfaces,
+neuroprosthetics and personalized medicine are part of a bright future I want to dedicate my
+life to. I am certain that groundbreaking discoveries and technologies with the aim to relieve
+people from their burdens are just around the corner and I can not wait to be part of it. 
       </p>
       <p>
-        I love to travel, play the guitar and do all kinds of sports and I am constantly seeking to
+        I love to travel, play the piano and do all kinds of sports and I am constantly seeking to
         be inspired, to solve the truly important problems and to be surrounded by people I love.
+        I am also passionate about filmmaking! Feel free to check out some of my <a
+          style="color: #d4af37; text-decoration: gold;"
+          href="https://fynncomerford.com/projects/"
+        >projects </a>
       </p>
     </div>
   </Layout>
