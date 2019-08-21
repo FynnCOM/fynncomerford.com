@@ -8,19 +8,19 @@
         <a target="_blank" href="http://predikon.ch">
           <div :key="1" class="h-30 shadow rounded-lg mb-6">
             <div class="flex w-full justify-center items-center h-48">
-              <img class="w-1/5 h-auto" src="~@/assets/img/logos/epfl.svg" />
+              <img class="w-1/5 h-auto" src="~@/assets/img/illustrations/magious_logo.png" />
               <div class="border-l-2 h-10 border-black mx-5"></div>
-              <h2 class="text-lg">Predikon</h2>
+              <h2 class="text-lg">Magious</h2>
             </div>
           </div>
         </a>
         <g-link to="/projects/hyped">
           <div :key="2" class="h-30 shadow rounded-lg mb-6">
             <div class="flex w-full justify-center items-center h-48">
-              <img class="w-1/10 h-auto" src="~@/assets/img/logos/hyped.png" />
+              <img class="w-1/10 h-auto" src="~@/assets/img/illustrations/magious_logo.png" />
 
               <div class="border-l-2 h-10 border-black mx-5"></div>
-              <h2 class="text-lg">Hyperloop</h2>
+              <h2 class="text-lg">Magious</h2>
             </div>
           </div>
         </g-link>

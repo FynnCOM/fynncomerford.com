@@ -5,14 +5,14 @@
         <span class="text-gold">A</span>bout
       </h1>
       <p>
-        My name is Fynn Comerford and I am studying Neuroscience at The University of Manchester. I am commited to help solve the world's biggest problems.
+        My name is Fynn Comerford and I am studying Neuroscience at The University of Edinburgh. I am commited to help solve the world's biggest problems.
         I want to participate in research that helps solve big health problems. 
       </p>
       <p>
          I am particularly
-fascinated by the opportunities emerging at the intersection of artificial intelligence and
+intrigued by the opportunities emerging at the intersection of artificial intelligence and
 cutting edge neuroscientific and biomedical research. Brain-computer interfaces,
-neuroprosthetics and personalized medicine are part of a bright future I want to dedicate my
+longevity research and personalized medicine are part of a bright future I want to dedicate my
 life to. I am certain that groundbreaking discoveries and technologies with the aim to relieve
 people from their burdens are just around the corner and I can not wait to be part of it. 
       </p>
@@ -25,6 +25,8 @@ people from their burdens are just around the corner and I can not wait to be pa
         >projects </a>
       </p>
     </div>
+
+    
   </Layout>
 </template>
 

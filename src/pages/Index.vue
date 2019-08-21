@@ -9,36 +9,38 @@
         ></vue-typer>
       </ClientOnly>
       <p class="mt-6">
-        I’m Ragnor. In case you don’t know me yet, feel free to check
-        my
+        Hey, I am Fynn. Welcome to my personal website. Feel free to explore my 
         <a
-          style="color: black; text-decoration: underline;"
+          style="color: #D4AF37; text-decoration: underline;"
           href="about.html"
         >about</a> page.
-        <br />Here, I occasionally write about
-        <g-link style="color: black; text-decoration: underline;" to="/projects">projects</g-link>&nbsp;I am working on and
+        <br />I have put together lists of 
         <a
-          style="color: black; text-decoration: underline;"
+          style="color: #D4AF37; text-decoration: underline;"
           href="https://ragnorcomerford.com/thoughts/"
-        >thoughts and ideas</a>&nbsp;I have on
-        different&nbsp;topics.
-        <br />I also compile a
+        >books</a>,
+       <a
+          style="color: #D4AF37; text-decoration: underline;"
+          href="https://ragnorcomerford.com/thoughts/">papers and articles</a> that I highly recommend.
+        <br />
+      
         <a
-          style="color: black; text-decoration: underline;"
+          style="color:#D4AF37 ; text-decoration: underline;"
           href="https://ragnorcomerford.com/collections/"
-        >collection</a> of books, movies, and
-        articles I particularly like and recommend.
-        <br />If you have an interesting project or just
+        >Here</a>, you can also check out some of the projects that I am working on. 
+        <br />
+        If you have an interesting project or just
         want to grab a coffee and chat, don’t hesitate to
         <a
-          style="color: black; text-decoration: underline;"
-          href="mailto:hello@ragnor.co"
+          style="color: #D4AF37; text-decoration: underline;"
+          href="mailto:comerford.fynn@gmail.com"
         >
-          drop me
-          a message
-        </a>.
+        contact me
+        </a>
+         anytime you want!
       </p>
       <img src="@/assets/img/signature.png" class="h-24 mt-8" />
+      <img src="@/assets/img/illustrations/profilepic.png" class="h-24 mt-8" />
     </div>
   </Layout>
 </template>

@@ -15,6 +15,7 @@
               <h2 class="absolute left-0 bottom-0 m-6 text-xl">Books</h2>
             </g-link>
           </div>
+          
           <div class="flex flex-col w-2/3">
             <div class="flex flex-row">
               <g-link
@@ -34,11 +35,11 @@
             </div>
             <div class="flex flex-row">
               <g-link
-                to="/collections/tools"
+                to="/collections/Papers"
                 class="flex w-2/3 h-48 lg:h-64 relative rounded-lg shadow bg-center bg-no-repeat bg-contain justify-end items-center mr-8 mb-8"
               >
-                <img src="~@/assets/img/illustrations/tools.svg" class="w-1/2 mr-5" />
-                <h2 class="absolute left-0 bottom-0 m-6 text-xl">Tools and Services</h2>
+                <img src="~@/assets/img/illustrations/science.svg" class="w-1/2 mr-5" />
+                <h2 class="absolute left-0 bottom-0 m-6 text-xl">Papers</h2>
               </g-link>
             </div>
           </div>
